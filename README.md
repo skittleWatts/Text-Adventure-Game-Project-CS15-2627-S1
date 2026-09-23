@@ -20,7 +20,7 @@ As the player completes actions, the game should remember what has happened and 
 
 ### Game Structure
 
-* [ ] Your game uses a **state machine** to keep track of the player's current room or location.
+* [x] Your game uses a **state machine** to keep track of the player's current room or location.
 * [ ] Your game contains **at least 10 different rooms or locations**.
 * [ ] The rooms are connected in a **non-linear layout**. The player must have choices about where to travel rather than simply moving through rooms in one fixed order.
 * [ ] Each room provides a clear description when the player enters it.
