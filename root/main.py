@@ -4,7 +4,15 @@ code = "9149"
 
 areas = ["hallway1", "living_room", "bathroom", "room1", "room2", "room3", "stairwell", "hallway2", "room4", "room5", "painting"]
 area = areas[0]
+user_input = None
 
+def check_user_input(num_of_options: int, input_from_user: str) -> bool:
+    """
+    :param num_of_options: The number of options
+    :param input_from_user: What the user inputted.
+    :return: Whether or not the input passed or not.
+    """
+    
 
 #You might notice my programs have a theme.
 print("""
@@ -17,6 +25,11 @@ Your task is to solve the mystery. The man in the living room can tell you what 
 while True:
     if area == areas[0]:
         print("""
-        YOU DIED.
+        Description of room
         """)
+        while userInput not in options4:
+            print("Please enter your choice. Make sure it's valid. ")
+            userInput = input()
+
+
 
