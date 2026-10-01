@@ -27,9 +27,10 @@ while True:
         print("""
         Description of room
         """)
-        while userInput not in options4:
-            print("Please enter your choice. Make sure it's valid. ")
-            userInput = input()
+        user_input = input()
+        if check_user_input(5, user_input)
+            #Go into that state
+    
 
 
 
