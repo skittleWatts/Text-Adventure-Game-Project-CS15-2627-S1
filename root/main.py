@@ -12,7 +12,8 @@ def check_user_input(num_of_options: int, input_from_user: str) -> bool:
     :param input_from_user: What the user inputted.
     :return: Whether or not the input passed or not.
     """
-    
+#function for each room that returns the new value and set current area to that.
+
 
 #You might notice my programs have a theme.
 print("""
@@ -29,8 +30,8 @@ while True:
         """)
         user_input = input()
         if check_user_input(5, user_input)
-            #Go into that state
-    
+            # Go into that state
+
 
 
 
