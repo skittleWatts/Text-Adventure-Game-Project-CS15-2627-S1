@@ -1,19 +1,209 @@
 talked_to_goblin = False
 relationship_mended = False
+stairwell_opened = False
 code = "9149"
 
 areas = ["hallway1", "living_room", "bathroom", "room1", "room2", "room3", "stairwell", "hallway2", "room4", "room5", "painting"]
 area = areas[0]
-user_input = None
+options = ["1", "2", "3", "4"]
 
-def check_user_input(num_of_options: int, input_from_user: str) -> bool:
+def hallway1() -> int:
     """
-    :param num_of_options: The number of options
-    :param input_from_user: What the user inputted.
-    :return: Whether or not the input passed or not.
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
     """
-#function for each room that returns the new value and set current area to that.
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
 
+def living_room() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def bathroom() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def room1() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def room2() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def room3() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def stairwell() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def hallway2() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def room4() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def room5() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
+
+def painting() -> int:
+    """
+    Runs the code required for the area of hallway1.
+    :return: Value of the new area.
+    """
+    print("""
+    Description of room
+    """)
+    while True:
+        user_input = input()
+        if user_input in options[0:2]:
+            if user_input == "1":
+                area = areas[1]
+                break
+        else:
+            print("Please enter a valid input! ")
+    return area
 
 #You might notice my programs have a theme.
 print("""
@@ -23,15 +213,41 @@ There are two floors, with 8 rooms, 2 hallways, and one stairwell.
 Your task is to solve the mystery. The man in the living room can tell you what the mystery is and give you hints.
 
 """)
+
 while True:
     if area == areas[0]:
-        print("""
-        Description of room
-        """)
-        user_input = input()
-        if check_user_input(5, user_input)
-            # Go into that state
+        area = hallway1()
 
+    elif area == areas[1]:
+        area = living_room()
 
+    elif area == areas[2]:
+        area = room1()
 
+    elif area == areas[3]:
+        area = room2()
+
+    elif area == areas[4]:
+        area = room3()
+
+    elif area == areas[5]:
+        print("run func")
+
+    elif area == areas[6]:
+        print("run func")
+
+    elif area == areas[7]:
+        print("run func")
+
+    elif area == areas[8]:
+        print("run func")
+
+    elif area == areas[9]:
+        print("run func")
+
+    elif area == areas[10]:
+        print("run func")
+
+    else:
+        print("What the heck this isn't possible check the code.")
 
