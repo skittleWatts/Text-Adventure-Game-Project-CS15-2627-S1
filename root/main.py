@@ -9,7 +9,7 @@ options = ["1", "2", "3", "4"]
 
 def hallway1() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the first hallway.
     :return: Value of the new area.
     """
     print("""
@@ -27,7 +27,7 @@ def hallway1() -> int:
 
 def living_room() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the living room.
     :return: Value of the new area.
     """
     print("""
@@ -45,7 +45,7 @@ def living_room() -> int:
 
 def bathroom() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the bathroom.
     :return: Value of the new area.
     """
     print("""
@@ -63,7 +63,7 @@ def bathroom() -> int:
 
 def room1() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the first room.
     :return: Value of the new area.
     """
     print("""
@@ -81,7 +81,7 @@ def room1() -> int:
 
 def room2() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the second room.
     :return: Value of the new area.
     """
     print("""
@@ -99,7 +99,7 @@ def room2() -> int:
 
 def room3() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the third room.
     :return: Value of the new area.
     """
     print("""
@@ -117,7 +117,7 @@ def room3() -> int:
 
 def stairwell() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the stairwell.
     :return: Value of the new area.
     """
     print("""
@@ -135,7 +135,7 @@ def stairwell() -> int:
 
 def hallway2() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the second hallway.
     :return: Value of the new area.
     """
     print("""
@@ -153,7 +153,7 @@ def hallway2() -> int:
 
 def room4() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the fourth room.
     :return: Value of the new area.
     """
     print("""
@@ -171,7 +171,7 @@ def room4() -> int:
 
 def room5() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for the area of the fifth room.
     :return: Value of the new area.
     """
     print("""
@@ -189,7 +189,7 @@ def room5() -> int:
 
 def painting() -> int:
     """
-    Runs the code required for the area of hallway1.
+    Runs the code required for when you choose to inspect the painting.
     :return: Value of the new area.
     """
     print("""
@@ -222,32 +222,32 @@ while True:
         area = living_room()
 
     elif area == areas[2]:
-        area = room1()
+        area = bathroom()
 
     elif area == areas[3]:
-        area = room2()
+        area = room1()
 
     elif area == areas[4]:
-        area = room3()
+        area = room2()
 
     elif area == areas[5]:
-        print("run func")
+        area = room3()
 
     elif area == areas[6]:
-        print("run func")
+        area = stairwell()
 
     elif area == areas[7]:
-        print("run func")
+        area = hallway2()
 
     elif area == areas[8]:
-        print("run func")
+        area = room4()
 
     elif area == areas[9]:
-        print("run func")
+        area = room5()
 
     elif area == areas[10]:
-        print("run func")
+        area = painting()
 
     else:
-        print("What the heck this isn't possible check the code.")
+        print("What the heck this isn't possible double check the code.")
 
