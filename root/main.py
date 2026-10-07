@@ -13,7 +13,9 @@ def hallway1() -> int:
     :return: Value of the new area.
     """
     print("""
-    Description of room
+    You are in the downstairs hallway.
+    
+    
     """)
     while True:
         user_input = input()
